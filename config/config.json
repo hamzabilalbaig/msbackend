@@ -2,22 +2,31 @@
   "development": {
     "username": "postgres",
     "password": "amaso123.",
-    "database": "medicalSupplies",
-    "host": "localhost",
-    "dialect": "postgres"
+    "database": "postgres",
+    "host": "medicalsupplies.postgres.database.azure.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
   },
   "test": {
-    "username": "root",
+    "username": "postgres",
     "password": "amaso123.",
-    "database": "medicalSupplies",
-    "host": "localhost",
-    "dialect": "postgres"
+    "database": "postgres",
+    "host": "medicalsupplies.postgres.database.azure.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
   },
   "production": {
-    "username": "root",
+    "username": "postgres",
     "password": "amaso123.",
-    "database": "medicalSupplies",
-    "host": "localhost",
-    "dialect": "postgres"
+    "database": "postgres",
+    "host": "medicalsupplies.postgres.database.azure.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
   }
 }
